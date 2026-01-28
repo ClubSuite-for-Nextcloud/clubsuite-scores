@@ -26,7 +26,7 @@ ClubSuite Scores verwaltet Ihr Notenmaterial digital:
 ### Manuelle Installation
 ```bash
 cd /path/to/nextcloud/apps
-git clone https://github.com/clubsuite/clubsuite-scores.git
+git clone https://github.com/ClubSuite-for-Nextcloud/clubsuite-scores.git
 php occ app:enable clubsuite-scores
 ```
 
@@ -49,7 +49,7 @@ AGPL v3 – Siehe [LICENSE](LICENSE)
 
 ## 🐛 Bugs & Feature Requests
 
-[GitHub Issues](https://github.com/clubsuite/clubsuite-scores/issues)
+[GitHub Issues](https://github.com/ClubSuite-for-Nextcloud/clubsuite-scores/issues)
 
 ---
 
