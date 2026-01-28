@@ -1,0 +1,1 @@
+<div id="clubsuite-scores"></div>

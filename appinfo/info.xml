@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>clubsuite-scores</id>
+    <name>ClubSuite Scores</name>
+    <summary>Notenbibliothek und Stimmenverwaltung</summary>
+    <description><![CDATA[# ClubSuite Scores
+
+Digitale Verwaltung von Partituren und Einzelstimmen für Musikvereine.
+
+## Features
+- **Notenbibliothek**: Katalog aller Werke
+- **Stimmen**: Einzelstimmenverwaltung
+- **Zuweisung**: Material an Mitglieder zuweisen
+- **Ensembles**: Gruppierung nach Besetzung
+- **Ausleihe**: Tracking ausgegebener Noten
+
+## Voraussetzung
+Erfordert ClubSuite Core.]]></description>
+    <version>1.2.0</version>
+    <licence>agpl</licence>
+    <author>Stefan Schulz</author>
+    <namespace>ClubSuiteScores</namespace>
+    <category>organization</category>
+    <website>https://github.com/clubsuite/clubsuite-scores</website>
+    <bugs>https://github.com/clubsuite/clubsuite-scores/issues</bugs>
+    <repository type="git">https://github.com/clubsuite/clubsuite-scores.git</repository>
+    <screenshot>https://raw.githubusercontent.com/clubsuite/clubsuite-scores/main/screenshots/library.png</screenshot>
+    <dependencies>
+        <nextcloud min-version="28" max-version="32" />
+        <php min-version="8.1" max-version="8.3" />
+    </dependencies>
+    <navigations>
+        <navigation>
+            <id>clubsuite-scores</id>
+            <name>Noten</name>
+            <route>clubsuite-scores.page.index</route>
+            <icon>app.svg</icon>
+            <order>10</order>
+        </navigation>
+    </navigations>
+</info>

@@ -1,0 +1,10 @@
+{
+  "translations": {
+    "app": "Notenverwaltung",
+    "scores": "Scores",
+    "parts": "Parts",
+    "assignments": "Assignments",
+    "pdf_viewer": "PDF Viewer"
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}
